@@ -14,7 +14,7 @@ addEventListener("fetch", (event) => {
 // };
 
 const routes = {
-  "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
+  "cloudflare-docker-proxy.alomt.workers.dev/": "https://registry-1.docker.io",
 };
 
 function routeByHosts(host) {
